@@ -51,8 +51,17 @@
   };
 
   # Add stuff for your user as you see fit:
-  # programs.neovim.enable = true;
-  # home.packages = with pkgs; [ steam ];
+  programs.neovim.enable = true;
+  programs.chromium.enable = true;
+  home.packages = with pkgs; [
+    nil
+    tmux
+    helix
+    hyprlock
+    xfce.thunar
+    wofi
+    lazygit
+  ];
 
   # Enable home-manager and git
   programs.home-manager.enable = true;
