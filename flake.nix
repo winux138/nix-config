@@ -56,6 +56,7 @@
         specialArgs = {inherit inputs outputs;};
         modules = [
           # > Our main nixos configuration file <
+          ./modules/nixos/hyprland.nix
           ./nixos/configuration.nix
         ];
       };
