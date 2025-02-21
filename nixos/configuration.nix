@@ -91,6 +91,7 @@
     git
     kitty
     keepassxc
+    openfortivpn
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
