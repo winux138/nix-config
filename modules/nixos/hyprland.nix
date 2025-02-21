@@ -27,5 +27,9 @@
   environment.systemPackages = with pkgs; [
     nwg-look
     pavucontrol
+    networkmanagerapplet
+    dunst
+    waybar
+    hyprlock
   ];
 }
