@@ -61,6 +61,8 @@
     xfce.thunar
     wofi
     lazygit
+    ripgrep
+    fd
   ];
 
   # Enable home-manager and git
