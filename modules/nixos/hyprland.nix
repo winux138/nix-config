@@ -28,6 +28,8 @@
     nwg-look
     pavucontrol
     networkmanagerapplet
+    openfortivpn
+    networkmanager-fortisslvpn
     dunst
     waybar
     hyprlock
