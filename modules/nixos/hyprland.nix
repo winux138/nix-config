@@ -31,5 +31,7 @@
     dunst
     waybar
     hyprlock
+    wl-clipboard
+    grimblast
   ];
 }
