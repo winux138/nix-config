@@ -55,6 +55,7 @@
   programs.chromium.enable = true;
   home.packages = with pkgs; [
     nil
+    nixfmt
     tmux
     helix
     hyprlock
