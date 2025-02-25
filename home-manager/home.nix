@@ -55,7 +55,7 @@
   programs.chromium.enable = true;
   home.packages = with pkgs; [
     nil
-    nixfmt
+    alejandra
     tmux
     helix
     hyprlock
