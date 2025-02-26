@@ -6,6 +6,7 @@
 
   services = {
     xserver.enable = true;
+    xserver.videoDrivers = ["amdgpu"];
     dbus.enable = true;
 
     displayManager.sddm = {
