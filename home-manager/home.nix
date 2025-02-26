@@ -6,6 +6,7 @@
   lib,
   config,
   pkgs,
+  pkgsUnstable,
   ...
 }: {
   # You can import other home-manager modules here
@@ -64,6 +65,8 @@
     lazygit
     ripgrep
     fd
+    vscodium
+    pkgsUnstable.tabby
   ];
 
   # Enable home-manager and git
