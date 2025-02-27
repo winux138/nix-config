@@ -99,6 +99,10 @@
     keepassxc
     clinfo
     segger-jlink
+    nrfutil
+    nrfconnect
+    nrf-udev
+    nrf5-sdk
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
