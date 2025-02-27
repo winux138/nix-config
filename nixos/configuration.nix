@@ -82,6 +82,10 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  nixpkgs.config.permittedInsecurePackages = [
+    "segger-jlink-qt4-796s"
+  ];
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
@@ -92,6 +96,7 @@
     kitty
     keepassxc
     clinfo
+    segger-jlink
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
