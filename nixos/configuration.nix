@@ -46,7 +46,7 @@
   services.printing.enable = true;
 
   # Enable sound with pipewire.
-  hardware.pulseaudio.enable = false;
+  # hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
@@ -103,6 +103,7 @@
     nrfconnect
     nrf-udev
     nrf5-sdk
+    pavucontrol
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
